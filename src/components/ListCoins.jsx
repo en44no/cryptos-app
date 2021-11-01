@@ -8,7 +8,7 @@ const ListCoins = ({ coins }) => {
 
   return (
     <View style={styles.list}>
-      <TextInput style={styles.searchInput} placeholder='Search a coin...' placeholderTextColor='#434343' onChangeText={text => setSearch(text)} />
+      <TextInput style={styles.searchInput} placeholder='Search a coin' placeholderTextColor='#434343' onChangeText={text => setSearch(text)} />
       <FlatList
         refreshing={refreshing}
         onRefresh={async () => {
@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
     width: '90%', marginBottom: 10, flex: 1,
   },
   searchInput: {
-    color: '#fff', borderBottomColor: '#EA8B19', borderBottomWidth: 1, width: '100%', textAlign: 'center', marginTop: 15, marginBottom: 10, fontSize: 17
+    color: '#fff', borderBottomColor: '#EA8B19', borderBottomWidth: 1, width: '100%', textAlign: 'center', marginTop: 15, marginBottom: 10, fontSize: 17, paddingBottom: 7
   }
 })
 
