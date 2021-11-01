@@ -9,7 +9,7 @@ const Header = () => {
 
 const styles = StyleSheet.create({
   title: {
-    color: '#fff', marginTop: 60, fontSize: 20
+    color: '#fff', marginTop: 50, fontSize: 20
   },
 })
 
